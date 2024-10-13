@@ -1,0 +1,22 @@
+# Ignorar el directorio de compilación de Rust
+**/target/
+
+# Archivos de compilación y binarios
+**/*.rlib
+**/*.exe
+**/*.dll
+**/*.so
+**/*.dylib
+**/*.bin
+
+# Archivos generados por editores
+**/*.swp
+**/*.swo
+**/*.DS_Store
+**/*.vscode
+
+# Archivos de logs
+**/*.log
+
+# Ignorar archivos de configuración de entorno
+**/.env
